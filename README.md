@@ -26,6 +26,6 @@ php artisan key:generate
 ## After pull git
 
 ```bash
- php artisan migrarte
+ php artisan migrate
  php artisan db:seed
 ```
