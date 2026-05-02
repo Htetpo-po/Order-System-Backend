@@ -22,3 +22,10 @@ composer require laravel/sanctum
 cp .env.example .env
 php artisan key:generate
 ```
+
+## After pull git
+
+```bash
+ php artisan migrarte
+ php artisan db:seed
+```
